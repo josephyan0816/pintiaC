@@ -1,5 +1,5 @@
 # pintiaC
-pintia
+
 拼题A
 
 C语言练习题
