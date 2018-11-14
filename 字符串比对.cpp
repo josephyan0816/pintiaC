@@ -18,7 +18,7 @@ int main()
  {
  	int idx=0;
  	int flag=0;
- 	int count=0;
+ 	int count=0;//count表示的是遍历整个数组后是否找到了，单用flag如果再找到了之后又从后面开始没找到的话最后会输出-1
  	int len1,len2;
 	 len1=strlen(s1);
  	len2=strlen(s2);
