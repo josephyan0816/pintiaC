@@ -6,7 +6,7 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode *createlist(); /*����ʵ�֣�ϸ�ڲ���*/
+struct ListNode *createlist(); //就是头插法，注意这题不要设头结点
 struct ListNode *reverse( struct ListNode *head );
 void printlist( struct ListNode *head )
 {
