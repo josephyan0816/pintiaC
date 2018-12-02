@@ -51,7 +51,7 @@ struct stud_node *deletelist( struct stud_node *head, int min_score )
 {
 	struct stud_node *p;
 	p=head;
-	while(p->next!=NULL)
+	while(p->next!=NULL)//p->next不为空的情况下，就一定能保证有下一个节点吗
 	{	int flag=0;
 		if(p->next->score<min_score)
 		{
